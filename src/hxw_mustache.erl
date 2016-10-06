@@ -23,8 +23,7 @@
           variable_re}).
 
 %% types
--type context_type() :: dict() | [{atom() | string(), any()}].
-
+-type context_type() :: dict:dict() | [{atom() | string(), any()}].
 
 %% file rendering
 %% ==============
